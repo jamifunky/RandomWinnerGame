@@ -284,11 +284,11 @@ export default function Home() {
           <button className={styles.button} onClick={joinGame}>
             Join Game for {entryFee.toString()} WEI
           </button>
-          <button className={styles.button} onClick={switchWallet}>
-            Switch Wallet
-          </button>
         </div>
       );
+      //<button className={styles.button} onClick={switchWallet}>
+      // Switch Wallet
+      //</button>
     }
     // Start the game
     if (isOwner && !gameStarted) {
